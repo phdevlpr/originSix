@@ -61,10 +61,10 @@ scrollReveal.reveal(
   `#home .image, #home .text,
   #about .image, #about .text,
   #services header, #services .card,
-  #testimonials header, #testimonials .testimonials,
+  #testimonials header, #testimonials .testimonials
   #contact .text, #contact .links,
   footer .brand, footer .social
-`,
+  `,
   { interval: 100 }
 )
 
@@ -72,13 +72,13 @@ scrollReveal.reveal(
 
 const backToTopButton = document.querySelector('.back-to-top')
 
-window.addEventListener('scroll', function () {
+function backToTop() {
   if (window.scrollY >= 560) {
     backToTopButton.classList.add('show')
   } else {
     backToTopButton.classList.remove('show')
   }
-})
+}
 
 //Menu ativo conforme a seção visível na página
 const sections = document.querySelectorAll('main section[id]')
@@ -109,6 +109,6 @@ function activateMenuAtCurrentSection() {
 
 window.addEventListener('scroll', function () {
   changeHeaderWhenScroll()
-  backToTopButton()
+  backToTop()
   activateMenuAtCurrentSection()
 })
