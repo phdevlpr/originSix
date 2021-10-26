@@ -8,8 +8,8 @@
 
 This project was developed with the following technologies:
 
--HTML
--CSS
+-HTML </br>
+-CSS </br>
 -JAVASCRIPT
 
 Used Libraries 📚
@@ -28,11 +28,11 @@ Used Libraries 📚
 OriginSix is a project of an institutional page in One Page format, responsive, can be used in various types of devices and adapted for micro, 
 small and medium companies. 
 Contains the following sections:
--Header
--Navigation
--Home
--About
--Services
--Testimonials
--Contact
+-Header </br>
+-Navigation </br>
+-Home </br>
+-About </br>
+-Services </br>
+-Testimonials </br>
+-Contact </br>
 -Footer
